@@ -15,12 +15,21 @@ public class FirstActivity extends AppCompatActivity {
     ListView lv;
     ArrayList<String> al;
     ArrayAdapter<String> aa;
+//    ArrayList<Module> module;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         lv = (ListView) this.findViewById(R.id.lvYear);
+
+//        lvModule = (ListView) this.findViewById(R.id.lvModules);
+//        module = new ArrayList<>();
+//        module.add(new Module("C208", true));
+//        module.add(new Module("C200", false));
+//        module.add(new Module("C346", true));
+
+
 
         al = new ArrayList<String>();
         al.add("Year 1");
@@ -39,6 +48,7 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
 
     }
