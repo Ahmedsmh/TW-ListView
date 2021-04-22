@@ -51,7 +51,7 @@ public class SecondActivity extends AppCompatActivity {
             module.add(new Module("C294", false));
 //            Module selectedModule = module.get(position);
 //            tvModuleCode.setText(module.getModule);
-            Toast.makeText(this, module.get(0).getModule(), Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, module.get(0).getModule(), Toast.LENGTH_SHORT).show();
 
         } else if (year.equals("Year 2")) {
             module.add(new Module("C208", true));
@@ -63,7 +63,7 @@ public class SecondActivity extends AppCompatActivity {
             module.add(new Module("C302", true));
             module.add(new Module("C300", true));
         } else {
-            Toast.makeText(this, "Trying", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
 
         }
 
